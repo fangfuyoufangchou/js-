@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6ad25f9-a415-4440-8135-dc8c80ceebb7" name="Default Changelist" comment="" />
+    <list default="true" id="e6ad25f9-a415-4440-8135-dc8c80ceebb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,13 +19,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/瀑布流.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="825">
+              <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,11 +38,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="664" />
-    <option name="y" value="72" />
+    <option name="x" value="-29" />
+    <option name="y" value="96" />
     <option name="width" value="1400" />
     <option name="height" value="1081" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -57,6 +64,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -90,15 +98,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583240713895</updated>
-      <workItem from="1583240716180" duration="455000" />
+      <workItem from="1583240716180" duration="1760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="455000" />
+    <option name="totallyTimeSpent" value="1760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="664" y="72" width="1400" height="1081" extended-state="1" />
+    <frame x="-29" y="96" width="1400" height="1081" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -126,8 +134,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/瀑布流.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="825">
+          <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
         </state>
       </provider>
     </entry>
