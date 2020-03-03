@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            display: flex;
+            flex-flow: wrap;
+            width: 100%;
+            position: relative;
+            font-size: 0;
+        }
+
+        .box > div {
+            position: absolute;
+            transition: all 0.3s;
+        }
+
+        .box > div > img {
+            width: 150px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div>
+        <img src="image/1_01.png">
+    </div>
+    <div>
+        <img src="image/1_02.png">
+    </div>
+    <div>
+        <img src="image/1_03.png">
+    </div>
+    <div>
+        <img src="image/1_04.png">
+    </div>
+    <div>
+        <img src="image/1_05.png">
+    </div>
+    <div>
+        <img src="image/1_06.png">
+    </div>
+    <div>
+        <img src="image/1_07.png">
+    </div>
+    <div>
+        <img src="image/1_08.png">
+    </div>
+    <div>
+        <img src="image/1_09.png">
+    </div>
+    <div>
+        <img src="image/1_10.png">
+    </div>
+    <div>
+        <img src="image/1_11.png">
+    </div>
+    <div>
+        <img src="image/1_12.png">
+    </div>
+</div>
+</body>
+<script>
+    let arr = document.querySelector('.box').children;
+    //arr所有子元素的数组集
+
+    let totalWidth = document.body.clientWidth;
+    //可见页面的宽度
+
+    let dvWidth = arr[0].offsetWidth;
+    //每个盒子的宽度
+
+    let num;
+    //用来表示一行应该有多少盒子
+
+    let line;
+    //用来表示一共应该多少行
+
+    realign();
+
+    function realign() {
+        let bigArray = [];
+        num = Math.floor(totalWidth / dvWidth);
+        line = Math.ceil(arr.length / num);
+        for (let i = 0; i < line; i++) {
+            if (i === line - 1) {
+                //此时是最后一行，不一定是满的，有可能就一两个
+                bigArray.push(fg(i * num, arr.length, arr));
+                break;
+            }
+            bigArray.push(fg(i * num, (i + 1) * num, arr));
+        }
+        for (let i = 0; i < line; i++) {
+            if (i === 0) {
+                for (let j = 0; j < bigArray[i].length; j++) {
+                    //第一行top肯定是0
+                    bigArray[i][j].style.left = j * dvWidth + 'px';
+                    bigArray[i][j].style.top = 0;
+                }
+            }
+
+            if (i > 0) {
+                let min;
+                //下面是从第二行开始，先把上一行的元素高度进行排序
+                for (let m = 0; m < bigArray[i - 1].length - 1; m++) {
+                    for (let n = 0; n < bigArray[i - 1].length - m - 1; n++) {
+                        if (bigArray[i - 1][n].offsetHeight > bigArray[i - 1][n + 1].offsetHeight) {
+                            //冒泡排序，数组第一个就是最小的高度
+                            min = bigArray[i-1][n + 1];
+                            bigArray[i-1][n + 1] = bigArray[i-1][n];
+                            bigArray[i-1][n] = min;
+                        }
+                    }
+                }
+
+                for (let k = 0; k < bigArray[i].length; k++) {
+                    bigArray[i]=remove(bigArray[i],undefined);
+                    //这边开始第一个元素的宽高就按照i-1的第一个元素宽高来，原因如上
+                    bigArray[i][k].style.left = bigArray[i - 1][k].offsetLeft + 'px';
+                    bigArray[i][k].style.top = bigArray[i - 1][k].offsetHeight + bigArray[i - 1][k].offsetTop + "px";
+
+                }
+            }
+        }
+    }
+
+
+    function fg(x, y, z) {
+        //函数用来把数组根据几行，分解成对应一行的数组
+        let arrayX = [];
+        for (let i = x; i < y; i++) {
+            arrayX.push(z[i]);
+        }
+        return arrayX;
+    }
+
+    function remove(a, b) {
+        //删除数组中某个对象，主要是用来删除 不知道怎么出现的undefined的
+        let c = [];
+        a.forEach((item) => {
+            if (b !== item) {
+               c.push(item);
+            }
+        });
+      return c;
+    }
+
+
+    window.onresize = function () {
+        totalWidth = document.body.clientWidth;
+        realign();
+    };
+
+</script>
+</html>
