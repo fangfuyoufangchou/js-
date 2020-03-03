@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ad25f9-a415-4440-8135-dc8c80ceebb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1_01_16.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +46,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/瀑布流.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+            <state relative-caret-position="-1750">
+              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -34,12 +63,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/瀑布流.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-29" />
-    <option name="y" value="96" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="268" />
+    <option name="y" value="98" />
     <option name="width" value="1400" />
     <option name="height" value="1081" />
   </component>
@@ -66,13 +96,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/image" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\js原生瀑布流效果实现\image" />
       <recent name="E:\js原生瀑布流效果实现" />
     </key>
   </component>
@@ -98,15 +129,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583240713895</updated>
-      <workItem from="1583240716180" duration="1760000" />
+      <workItem from="1583240716180" duration="3150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1760000" />
+    <option name="totallyTimeSpent" value="3150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-29" y="96" width="1400" height="1081" extended-state="1" />
+    <frame x="268" y="98" width="1400" height="1081" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -136,6 +167,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1750">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
         </state>
       </provider>
     </entry>
